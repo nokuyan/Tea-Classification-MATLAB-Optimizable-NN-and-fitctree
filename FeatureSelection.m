@@ -1,5 +1,4 @@
-% clc; clear all;
-% load('Data.mat')
+
 Mdl = fitctree(Data,'Class','PredictorSelection','curvature',...
     'Surrogate','on');
 

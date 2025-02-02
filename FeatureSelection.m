@@ -1,6 +1,6 @@
 % clc; clear all;
-% load('Direk.mat')
-Mdl = fitctree(Direk,'Snf','PredictorSelection','curvature',...
+% load('Data.mat')
+Mdl = fitctree(Data,'Class','PredictorSelection','curvature',...
     'Surrogate','on');
 
 imp = predictorImportance(Mdl);

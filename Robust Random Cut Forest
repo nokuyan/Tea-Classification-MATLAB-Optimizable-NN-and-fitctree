@@ -1,0 +1,15 @@
+
+data = removevars(data, "Class");
+data = data{:,:};
+data = data';
+data = normalize(data);
+
+rng("default") % For reproducibility
+[rforest,tf_rforest,s_rforest] = rrcforest(data, ...
+    ContaminationFraction=contaminationFraction,StandardizeData=true);
+
+figure
+histogram(s_rforest,Normalization="probability")
+xline(rforest.ScoreThreshold,"k-", ...
+    join(["Threshold =" rforest.ScoreThreshold]))
+title("Histogram of Anomaly Scores for Robust Random Cut Forest")

@@ -10,3 +10,4 @@ Requirements
 The example requires MATLAB R2023b or later to be installed.
 
 
+Okuyan, N., Yetim, H., & Kesmen, Z. (2025). Differentiation of black tea according to country of origin using the μ‐CTE/TD/GC‐MS method combined with decision tree‐optimizable neural network analysis. Journal of the Science of Food and Agriculture, 105(11), 5695-5703.

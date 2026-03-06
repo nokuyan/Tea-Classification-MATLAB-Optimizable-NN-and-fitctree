@@ -1,31 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the following article."
-title: "Differentiation of black tea according to country of origin using the μ-CTE/TD/GC-MS method combined with decision tree-optimizable neural network analysis"
+message: "If you use this repository, please cite the related article below."
 
 authors:
 
-* family-names: "Okuyan"
+- family-names: "Okuyan"
   given-names: "Nurullah"
-* family-names: "Yetim"
+- family-names: "Yetim"
   given-names: "Hasan"
-* family-names: "Kesmen"
+- family-names: "Kesmen"
   given-names: "Zulal"
 
-preferred-citation:
-type: article
-title: "Differentiation of black tea according to country of origin using the μ-CTE/TD/GC-MS method combined with decision tree-optimizable neural network analysis"
-authors:
-- family-names: "Okuyan"
-given-names: "Nurullah"
-- family-names: "Yetim"
-given-names: "Hasan"
-- family-names: "Kesmen"
-given-names: "Zulal"
-journal: "Journal of the Science of Food and Agriculture"
-year: 2025
-volume: 105
-issue: 11
-start: 5695
-end: 5703
+title: "Black Tea Origin Classification Software"
 doi: 10.1002/jsfa.14288
-publisher: "Wiley"
+date-released: 2025
+url: "https://github.com/USERNAME/REPOSITORY"
